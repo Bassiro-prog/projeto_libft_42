@@ -42,9 +42,9 @@ A lib é dividida em duas partes:
 
 ---
 
-## 📦 Instalação  
+📦 Instalação
 
-Clone o repositório:  
+Clone o repositório e compile a biblioteca:
 
 ```bash
 git clone https://github.com/Bassiro-prog/libft.git
@@ -54,7 +54,6 @@ make clean # remove objetos
 make fclean # remove tudo (incluindo libft.a)
 make re     # recompila do zero
 E nunca esqueça do norminette 😈
-
 💡 Exemplos de Uso
 <details> <summary>🔹 Manipulando Strings</summary>
 #include "libft.h"
@@ -71,7 +70,6 @@ int main(void) {
     // Lembre-se de dar free(split) e free(str)!
     return (0);
 }
-
 </details> <details> <summary>🔹 Listas Encadeadas</summary>
 #include "libft.h"
 #include <stdio.h>
@@ -91,8 +89,8 @@ int main(void) {
     ft_lstclear(&head, free);  // Libere a memória!
     return (0);
 }
+</details> ```
 
-</details>
 📈 Status
 <img width="598" height="204" alt="image" src="https://github.com/user-attachments/assets/d434854e-1fa7-4384-a57e-d4f03013c19d" />
 
