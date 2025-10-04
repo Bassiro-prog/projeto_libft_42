@@ -55,10 +55,27 @@ make fclean # remove tudo (incluindo libft.a)
 make re     # recompila do zero
 E nunca esqueça do norminette 😈
 💡 Exemplos de Uso
-<details> <summary>🔹 Manipulando Strings</summary>
-#include "libft.h"
+💡 Exemplo de Uso
+🔹 Manipulando Strings
+  
+Clique para ver o código  
+c#include "libft.h"
 #include <stdio.h>
 
+int main(void) {
+    char *str = ft_strdup("Hello, 42!");
+    char *trimmed = ft_strtrim(str, " !");
+    printf("Original: %s\n", str);      // "Hello, 42!"
+    printf("Trimmed: %s\n", trimmed);   // "Hello, 42"
+    char **split = ft_split("ola,mundo,42", ',');
+    printf("Split[0]: %s\n", split[0]); // "ola"
+    // Lembre-se de dar free(split) e free(str)!
+    return (0);
+}
+  
+🔹 Listas Encadeadas
+  
+Clique para ver o código
 int main(void) {
     char *str = ft_strdup("Hello, 42!");
     char *trimmed = ft_strtrim(str, " !");
