@@ -69,12 +69,9 @@ int main(void) {
     // Lembre-se de dar free(split) e free(str)!
     return (0);
 }
-</details> ```
-
-<details>
-<summary>🔹 Lista Encadeadas</summary>
-
-```c
+</details> <details> <summary>🔹 Lista Encadeadas</summary>
+c
+Copiar código
 #include "libft.h"
 #include <stdio.h>
 
