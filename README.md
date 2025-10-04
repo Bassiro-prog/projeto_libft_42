@@ -62,6 +62,7 @@ E nunca esqueça do norminette 😈
 🚧 Futuro: Mais otimizações e integração com outros projetos da 42.
 
 🤝 Contribuições
+
 Quer contribuir? Abra um PR ou sugira testes via issues.
 Mas lembre: siga a norma da 42 (25 linhas por função, sem variáveis globais, etc.).
 
