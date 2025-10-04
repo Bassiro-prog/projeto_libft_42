@@ -42,7 +42,6 @@ A lib é dividida em duas partes:
 
 ---
 ## 📦 Instalação
-```c
 Clone o repositório e compile a biblioteca:
 git clone https://github.com/Bassiro-prog/libft.git
 cd libft
