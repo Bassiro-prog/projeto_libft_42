@@ -45,7 +45,20 @@ A lib é dividida em duas partes:
 
 Clone o repositório e compile a biblioteca:
 
+<details>
+<summary>🔹 Manipulando Strings</summary>
 
+```c
+#include "libft.h"
+#include <stdio.h>
+
+int main(void) {
+    char *str = ft_strdup("Hello, 42!");
+    printf("%s\n", str);
+    free(str);
+    return 0;
+}
+</details> ```
 git clone https://github.com/Bassiro-prog/libft.git
 cd libft
 make       # gera o arquivo libft.a
