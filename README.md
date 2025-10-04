@@ -54,53 +54,12 @@ make fclean # remove tudo (incluindo libft.a)
 make re     # recompila do zero
 E nunca esqueça do norminette 😈
 
-💡 Exemplos de Uso
-<details> <summary>🔹 Manipulando Strings</summary>
-c
-Copiar código
-#include "libft.h"
-#include <stdio.h>
-
-int main(void) {
-    char *str = ft_strdup("Hello, 42!");
-    char *trimmed = ft_strtrim(str, " !");
-    printf("Original: %s\n", str);      // "Hello, 42!"
-    printf("Trimmed: %s\n", trimmed);   // "Hello, 42"
-    
-    char **split = ft_split("ola,mundo,42", ',');
-    printf("Split[0]: %s\n", split[0]); // "ola"
-    // Lembre-se de dar free(split) e free(str)!
-    return (0);
-}
-</details> <details> <summary>🔹 Listas Encadeadas</summary>
-c
-Copiar código
-#include "libft.h"
-#include <stdio.h>
-
-int main(void) {
-    t_list *head = ft_lstnew(ft_strdup("Primeiro"));
-    ft_lstadd_back(&head, ft_lstnew(ft_strdup("Segundo")));
-    ft_lstadd_front(&head, ft_lstnew(ft_strdup("Zero")));
-    
-    t_list *temp = head;
-    while (temp) {
-        printf("%s -> ", (char *)temp->content);
-        temp = temp->next;
-    }
-    // Output: Zero -> Primeiro -> Segundo ->
-    
-    ft_lstclear(&head, free);  // Libere a memória!
-    return (0);
-}
-</details> ```
 📈 Status
-<img width="598" height="204" alt="image" src="https://github.com/user-attachments/assets/d434854e-1fa7-4384-a57e-d4f03013c19d" />
-
-🚧 Futuro: otimizações e integração em outros projetos
+✅ Parte 1: 100% implementada e testada.
+✅ Parte 2: Listas bônus no bolso!
+🚧 Futuro: Mais otimizações e integração com outros projetos da 42.
 
 🤝 Contribuições
-
 Quer contribuir? Abra um PR ou sugira testes via issues.
 Mas lembre: siga a norma da 42 (25 linhas por função, sem variáveis globais, etc.).
 
