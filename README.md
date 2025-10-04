@@ -22,9 +22,15 @@ A lib é dividida em duas partes:
 
 ---
 
-## 🔨 Funções  
+## 🔨 Funções     isalpha
+• isdigit
+• isalnum
+• isascii
+• isprint
+
 
 ### Parte 1 – Funções da libc reimplementadas  
+  `ft_isdigit`, `ft_isalnum`, `ft_isascii`, `ft_isprint`, `ft_isalpha`,
 - `ft_strlen`, `ft_strlcpy`, `ft_strlcat`, `ft_strncmp`, `ft_strdup`,  
 - `ft_strchr`, `ft_strrchr`, `ft_memset`, `ft_memcpy`, `ft_memmove`,  
 - `ft_memchr`, `ft_memcmp`, `ft_bzero`, `ft_calloc`, `ft_atoi`,  
@@ -57,7 +63,7 @@ E nunca esqueça do norminette 😈
 
 ✅ Parte 1: 100% implementada e testada.
 
-✅ Parte 2: Listas bônus no bolso!
+✅ Parte 2: Listas bônus check!
 
 🚧 Futuro: Mais otimizações e integração com outros projetos da 42.
 
