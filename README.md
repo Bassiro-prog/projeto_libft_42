@@ -41,6 +41,7 @@ A lib é dividida em duas partes:
 - `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`.  
 
 ---
+```bash
 ## 📦 Instalação
 Clone o repositório e compile a biblioteca:
 git clone https://github.com/Bassiro-prog/libft.git
@@ -51,56 +52,6 @@ make fclean # remove tudo (incluindo libft.a)
 make re     # recompila do zero
 E nunca esqueça do norminette 😈
 ---
-💡 Exemplo de Uso
-<details>
-<summary>🔹 Manipulando Strings</summary>
-
-```c
-#include "libft.h"
-#include <stdio.h>
-
-int main(void) {
-    char *str = ft_strdup("Hello, 42!");
-    char *trimmed = ft_strtrim(str, " !");
-    printf("Original: %s\n", str);      // "Hello, 42!"
-    printf("Trimmed: %s\n", trimmed);   // "Hello, 42"
-    
-    char **split = ft_split("ola,mundo,42", ',');
-    printf("Split[0]: %s\n", split[0]); // "ola"
-    
-    // Lembre-se de dar free(split) e free(str)!
-    free(str);
-    for (int i = 0; split[i]; i++)
-        free(split[i]);
-    free(split);
-
-    return (0);
-}
-</details> ```
-<details>
-<summary>🔹 Lista Encadeadas</summary>
-
-```c
-#include "libft.h"
-#include <stdio.h>
-
-int main(void) {
-    t_list *head = ft_lstnew(ft_strdup("Primeiro"));
-    ft_lstadd_back(&head, ft_lstnew(ft_strdup("Segundo")));
-    ft_lstadd_front(&head, ft_lstnew(ft_strdup("Zero")));
-    
-    t_list *temp = head;
-    while (temp) {
-        printf("%s -> ", (char *)temp->content);
-        temp = temp->next;
-    }
-    printf("\n"); // Finaliza a linha
-    
-    ft_lstclear(&head, free); // Libere a memória!
-    return (0);
-}
-</details> ````
-
 📈 Status
 ✅ Parte 1: 100% implementada e testada.
 ✅ Parte 2: Listas bônus no bolso!
