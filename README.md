@@ -55,7 +55,9 @@ E nunca esqueça do norminette 😈
 ---
 📈 Status
 ✅ Parte 1: 100% implementada e testada.
+
 ✅ Parte 2: Listas bônus no bolso!
+
 🚧 Futuro: Mais otimizações e integração com outros projetos da 42.
 
 🤝 Contribuições
@@ -69,5 +71,6 @@ Mas lembre: siga a norma da 42 (25 linhas por função, sem variáveis globais, 
 Aos peers que revisaram e debugaram comigo.
 
 👤 Feito com ❤️ por Bassiro Nanque – 42 School
+
 ⭐ Se curtiu, deixa uma estrela no repo!
 ---
