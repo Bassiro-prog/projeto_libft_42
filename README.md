@@ -54,6 +54,7 @@ E nunca esqueça do norminette 😈
 ```
 ---
 📈 Status
+
 ✅ Parte 1: 100% implementada e testada.
 
 ✅ Parte 2: Listas bônus no bolso!
