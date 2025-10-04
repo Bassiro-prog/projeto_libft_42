@@ -22,15 +22,8 @@ A lib é dividida em duas partes:
 
 ---
 
-## 🔨 Funções     isalpha
-• isdigit
-• isalnum
-• isascii
-• isprint
-
-
 ### Parte 1 – Funções da libc reimplementadas  
-  `ft_isdigit`, `ft_isalnum`, `ft_isascii`, `ft_isprint`, `ft_isalpha`,
+-  `ft_isdigit`, `ft_isalnum`, `ft_isascii`, `ft_isprint`, `ft_isalpha`,
 - `ft_strlen`, `ft_strlcpy`, `ft_strlcat`, `ft_strncmp`, `ft_strdup`,  
 - `ft_strchr`, `ft_strrchr`, `ft_memset`, `ft_memcpy`, `ft_memmove`,  
 - `ft_memchr`, `ft_memcmp`, `ft_bzero`, `ft_calloc`, `ft_atoi`,  
