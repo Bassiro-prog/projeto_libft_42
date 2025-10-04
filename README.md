@@ -51,6 +51,7 @@ make clean # remove objetos
 make fclean # remove tudo (incluindo libft.a)
 make re     # recompila do zero
 E nunca esqueça do norminette 😈
+```
 ---
 📈 Status
 ✅ Parte 1: 100% implementada e testada.
