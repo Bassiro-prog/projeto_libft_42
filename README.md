@@ -64,14 +64,23 @@ int main(void) {
     char *trimmed = ft_strtrim(str, " !");
     printf("Original: %s\n", str);      // "Hello, 42!"
     printf("Trimmed: %s\n", trimmed);   // "Hello, 42"
+    
     char **split = ft_split("ola,mundo,42", ',');
     printf("Split[0]: %s\n", split[0]); // "ola"
+    
     // Lembre-se de dar free(split) e free(str)!
+    free(str);
+    for (int i = 0; split[i]; i++)
+        free(split[i]);
+    free(split);
+
     return (0);
 }
-</details> <details> <summary>🔹 Lista Encadeadas</summary>
-c
-Copiar código
+</details> ```
+<details>
+<summary>🔹 Lista Encadeadas</summary>
+
+```c
 #include "libft.h"
 #include <stdio.h>
 
@@ -86,10 +95,11 @@ int main(void) {
         temp = temp->next;
     }
     printf("\n"); // Finaliza a linha
+    
     ft_lstclear(&head, free); // Libere a memória!
     return (0);
 }
-</details> ```
+</details> ````
 
 📈 Status
 ✅ Parte 1: 100% implementada e testada.
