@@ -41,8 +41,7 @@ A lib é dividida em duas partes:
 - `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`.  
 
 ---
-
-📦 Instalação
+## 📦 Instalação
 
 Clone o repositório e compile a biblioteca:
 
@@ -54,28 +53,14 @@ make clean # remove objetos
 make fclean # remove tudo (incluindo libft.a)
 make re     # recompila do zero
 E nunca esqueça do norminette 😈
+
 💡 Exemplos de Uso
-💡 Exemplo de Uso
-🔹 Manipulando Strings
-  
-Clique para ver o código  
-c#include "libft.h"
+<details> <summary>🔹 Manipulando Strings</summary>
+c
+Copiar código
+#include "libft.h"
 #include <stdio.h>
 
-int main(void) {
-    char *str = ft_strdup("Hello, 42!");
-    char *trimmed = ft_strtrim(str, " !");
-    printf("Original: %s\n", str);      // "Hello, 42!"
-    printf("Trimmed: %s\n", trimmed);   // "Hello, 42"
-    char **split = ft_split("ola,mundo,42", ',');
-    printf("Split[0]: %s\n", split[0]); // "ola"
-    // Lembre-se de dar free(split) e free(str)!
-    return (0);
-}
-  
-🔹 Listas Encadeadas
-  
-Clique para ver o código
 int main(void) {
     char *str = ft_strdup("Hello, 42!");
     char *trimmed = ft_strtrim(str, " !");
@@ -88,6 +73,8 @@ int main(void) {
     return (0);
 }
 </details> <details> <summary>🔹 Listas Encadeadas</summary>
+c
+Copiar código
 #include "libft.h"
 #include <stdio.h>
 
@@ -107,7 +94,6 @@ int main(void) {
     return (0);
 }
 </details> ```
-
 📈 Status
 <img width="598" height="204" alt="image" src="https://github.com/user-attachments/assets/d434854e-1fa7-4384-a57e-d4f03013c19d" />
 
