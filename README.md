@@ -45,7 +45,7 @@ A lib é dividida em duas partes:
 
 Clone o repositório e compile a biblioteca:
 
-```bash
+
 git clone https://github.com/Bassiro-prog/libft.git
 cd libft
 make       # gera o arquivo libft.a
